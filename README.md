@@ -1,6 +1,4 @@
-# NLP-Project
-
-## Project Instructions
+# Project Instructions
 This repo is your starter code for the project. It is the same as the starter code we began with in lesson 2. Install and configure Webpack just as we did in the course. Feel free to refer to the course repo as you build this one, and remember to make frequent commits and to create and merge branches as necessary!
 
 The goal of this project is to give you practice with:
@@ -80,14 +78,14 @@ this step, all of the work we did to protect our API keys was pointless.
  
 ...Not that you would want to do that. This means that our updated API credential settings will look like this:
 
-	•// set aylien API credentials
-	•// NOTICE that textapi is the name I used, but it is arbitrary. 
-	•// You could call it aylienapi, nlp, or anything else, 
-	•//   just make sure to make that change universally!
-	•var textapi = new aylien({
-  	•application_id: process.env.API_ID,
-  	•application_key: process.env.API_KEY
-	•});
+	// set aylien API credentials
+	// NOTICE that textapi is the name I used, but it is arbitrary. 
+	// You could call it aylienapi, nlp, or anything else, 
+	//   just make sure to make that change universally!
+	var textapi = new aylien({
+  	  application_id: process.env.API_ID,
+  	  application_key: process.env.API_KEY
+	});
 	
 ### Step 5: Using the API
 
