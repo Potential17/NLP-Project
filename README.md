@@ -76,7 +76,7 @@ this step, all of the work we did to protect our API keys was pointless.
 	•dotenv.config();
 ■ Reference variables you created in the .env file by putting process.env in front of it, an example might look like this:
 
- •console.log(`Your API key is ${process.env.API_KEY}`);
+ 	•console.log(`Your API key is ${process.env.API_KEY}`);
  
 ...Not that you would want to do that. This means that our updated API credential settings will look like this:
 
